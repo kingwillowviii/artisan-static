@@ -58,7 +58,7 @@
 		//button_position: 'bottom-right', /*Optional: Position for the notification button that shows up when the selector parameter is not set*/
 		//icon: 'bell_lines', /*Optional: Alternative icon to display in the notification button*/
 		//language: 'EN', /*Optional: Bring news in the language of choice*/
-		//filter: 'admin', /*Optional : Bring the news for a certain role as well as all the public news*/
+		filter: 'SANDBOX', /*Optional : Bring the news for a certain role as well as all the public news*/
 		//lazy: false, /*Optional : true if you want to manually start the script by calling Beamer.init()*/
 		//alert : true, /*Optional : false if you don't want to initialize the selector*/
 		//delay : 0, /*Optional : Delay (in milliseconds) before initializing Beamer*/
@@ -73,7 +73,8 @@
 		//user_firstname : "firstname", /*Optional : Input your user firstname for better statistics*/
 		//user_lastname : "lastname", /*Optional : Input your user lastname for better statistics*/
 		//user_email : "email", /*Optional : Input your user email for better statistics*/
-		//user_id : "user_id" /*Optional : Input your user ID for better statistics*/
+        //user_id : "user_id" /*Optional : Input your user ID for better statistics*/
+        roll: 'guest_netlify'
 	};
 </script>
 <script type="text/javascript" src="https://app.getbeamer.com/js/beamer-embed.js" defer="defer"></script>
