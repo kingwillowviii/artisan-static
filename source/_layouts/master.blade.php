@@ -48,7 +48,7 @@
 
     <script>
 	var beamer_config = {
-		product_id : 'swJinKda21523', //DO NOT CHANGE: This is your product code on Beamer
+		product_id : 'ZrgeHHvO20277', //DO NOT CHANGE: This is your product code on Beamer
 		//selector : 'selector', /*Optional: Id, class (or list of both) of the HTML element to use as a button*/
 		//display : 'right', /*Optional: Choose how to display the Beamer panel in your site*/
 		//top: 0, /*Optional: Top position offset for the notification bubble*/
@@ -70,11 +70,11 @@
 		//onopen : your_onopen_function, /*Optional : Beamer will call this function when opening the panel*/
 		//onclose : your_onclose_function, /*Optional : Beamer will call this function when closing the panel*/
 		//---------------Visitor Information---------------
-		//user_firstname : "firstname", /*Optional : Input your user firstname for better statistics*/
-		//user_lastname : "lastname", /*Optional : Input your user lastname for better statistics*/
+		user_firstname : "SANDBOX", /*Optional : Input your user firstname for better statistics*/
+		user_lastname : "Guest", /*Optional : Input your user lastname for better statistics*/
 		//user_email : "email", /*Optional : Input your user email for better statistics*/
         //user_id : "user_id" /*Optional : Input your user ID for better statistics*/
-        roll: 'guest_netlify'
+        roll: 'GUEST'
 	};
 </script>
 <script type="text/javascript" src="https://app.getbeamer.com/js/beamer-embed.js" defer="defer"></script>
